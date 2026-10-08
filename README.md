@@ -1,4 +1,3 @@
-```markdown
 # Joint SeqStruct Search
 
 **Joint SeqStruct Search** is a sequence- and structure-based retrieval workflow for viral protein analysis.
