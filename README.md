@@ -1,4 +1,3 @@
-```markdown
 # Joint SeqStruct Search
 
 **Joint SeqStruct Search** is a sequence- and structure-based retrieval workflow for viral protein analysis.
@@ -30,35 +29,45 @@ A concise description of the complete analysis workflow is provided in:
 
 ```text
 notebooks/workflow.ipynb
-```
 
 The workflow contains four main stages:
 
-1. **Dataset preparation**
-   - Filter the original Viro3D dataset.
-   - Extract Baculoviridae proteins.
-   - Match protein sequences with predicted structures.
+Dataset preparation
 
-2. **Query and reference selection**
-   - Normalize protein annotations.
-   - Select representative query proteins.
-   - Construct the reference protein set.
+Filter the original Viro3D dataset.
 
-3. **Sequence and structure retrieval**
-   - Sequence-based retrieval with MMseqs2.
-   - Structure-based retrieval with Foldseek.
+Extract Baculoviridae proteins.
 
-4. **Result comparison and analysis**
-   - Integrate MMseqs2 and Foldseek retrieval results.
-   - Compare sequence- and structure-derived protein relationships.
-   - Generate downstream statistics and visualizations.
+Match protein sequences with predicted structures.
 
-## Software
+Query and reference selection
+
+Normalize protein annotations.
+
+Select representative query proteins.
+
+Construct the reference protein set.
+
+Sequence and structure retrieval
+
+Sequence-based retrieval with MMseqs2.
+
+Structure-based retrieval with Foldseek.
+
+Result comparison and analysis
+
+Integrate MMseqs2 and Foldseek retrieval results.
+
+Compare sequence- and structure-derived protein relationships.
+
+Generate downstream statistics and visualizations.
+
+Software
 
 The retrieval experiments were performed using:
 
-- **MMseqs2**: `v18.8cc5c`
-- **Foldseek**: `v10.941cd33`
+MMseqs2: v18.8cc5c
 
-The preprocessing and comparison programs are implemented mainly in **C++**, while shell scripts are used to run MMseqs2 and Foldseek.
+Foldseek: v10.941cd33
 
+The preprocessing and comparison programs are implemented mainly in C++, while shell scripts are used to run MMseqs2 and Foldseek.
