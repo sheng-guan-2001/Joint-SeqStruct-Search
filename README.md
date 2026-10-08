@@ -61,24 +61,3 @@ The retrieval experiments were performed using:
 
 The preprocessing and comparison programs are implemented mainly in **C++**, while shell scripts are used to run MMseqs2 and Foldseek.
 
-## Repository structure
-
-```text
-Joint-SeqStruct-Search/
-├── notebooks/
-│   └── workflow.ipynb
-└── scripts/
-    ├── dataset/
-    ├── query_selection/
-    ├── search/
-    └── comparison/
-```
-
-The detailed relationship between individual scripts and each analysis stage is described in `notebooks/workflow.ipynb`.
-
-## Citation
-
-Citation information will be added upon publication.
-```
-
-你在 GitHub 创建 `README.md` 后，直接整段粘贴进去并保存，就会自动显示成正常的标题、粗体、列表和代码框。
